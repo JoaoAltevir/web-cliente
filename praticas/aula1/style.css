@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+}
+
+.wallpaper img{
+    width: 100%;
+    height: 300px;
+}
+
+.title h1{
+    margin: 20px;
+    
+}
+
+
+.container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1s0px;
+    padding: 40px;
+}
+
+#texto{
+    flex: 1;
+    margin: 20px;
+    width: 25%;
+    text-align: justify;
+}
+
+.img1{
+    width: 300px;
+}
+
+.img2{
+    width: 300px;
+}
+
+.img1, .img2{
+    display: flex;
+    height: 300px;
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.colunas {
+    margin: 20px;
+}
